@@ -1,6 +1,7 @@
-let tabuada = 2;
+let tabuada = 8;
 
 function escreva(){
+    document.write("Tabuada do " + tabuada + "<br>")
     document.write(tabuada + " x 1 = " + (tabuada*1) + "<br>");
     document.write(tabuada + " x 2 = " + (tabuada*2) + "<br>");
     document.write(tabuada + " x 3 = " + (tabuada*3) + "<br>");
@@ -13,18 +14,17 @@ function escreva(){
     document.write(tabuada + " x 10 = " + (tabuada*10) + "<br>");
 }
 
-
-let lista = ["jesus","spessato","jorge","duarte","waldete","raquel"]
+let lista = ["Jorge","Duarte","Waldete","Raquel",];
 
 function mostra(){
     document.write(lista.length + "<br>");
     for(let i = 0; i < lista.length; i++){
-        document.write(lista[0] + "<br>")
+        document.write(lista[i] + "<br>");
     }
 }
 
-function tabuada(){
+function mostraTabuada(){
     for(let i = 1; i <= 10; i++){
-        document.write("o valor do i " + i + "<br>")
+        document.write("O valor do i " + i + "<br>");
     }
 }
