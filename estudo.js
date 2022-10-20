@@ -35,8 +35,28 @@ function total(){
     let r = 0;
     for(let i =1; i <=t; i++){
         r = v * (1 + (j/100));
-        document.write("mes" + i + " - valor: " + r + "<br>");
+        document.write("Mês " + i + " - valor: " + r + "<br>");
         v = r;
     }
-    document.write("resultado: " + r);
+    document.write("Resultado: " + r);
+}
+
+function robin(){
+    let n1 = document.getElementById("b1").value
+    let n2 = document.getElementById("b2").value
+    let n3 = document.getElementById("b3").value
+    let n4 = document.getElementById("b4").value
+    let r = Number(n1)+Number(n2)+Number(n3)+Number(n4);
+
+    document.getElementById("resul").innerHTML = "soma: " + r;
+}
+
+function zoro(){
+   let n1 = document.getElementById("b1").value
+   let n2 = document.getElementById("b2").value
+   let n3 = document.getElementById("b3").value
+   let n4 = document.getElementById("b4").value
+   let r = Number(n1)/Number(n2)/Number(n3)/Number(n4);
+
+   document.getElementById("resul").innerHTML = "soma: " / r;
 }
