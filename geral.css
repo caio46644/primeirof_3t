@@ -30,3 +30,15 @@
     color: rgb(250, 3, 3);
     cursor: pointer;
 }
+.calcf {
+    display: none;
+}
+#input-calcf{
+    display: none;
+}
+h4 {
+    color: white;
+}
+#input-calcf:checked + .calculadora .calcf{
+    display: block;
+}
